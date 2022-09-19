@@ -49,6 +49,6 @@ put into log file
 sort the data unto aplhabetical order 
 pass the value of sorted data as id
 
-# Component 
+# Component UserDetails
 get the value as {id}, put into log file 
 call the function displaydata{id}
