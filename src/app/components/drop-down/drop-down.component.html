@@ -1,0 +1,12 @@
+<div class="col-sm cointainer">
+    <div class="img">
+        <div class="image__wrapper">
+            <div class="head">Welcome to Himpact Assignment</div>
+            <div class="sub_head">Choose a user to view details</div>
+            <select class="list" (change)="name($event.target.value)">
+                <option value="" hidden >Select Name</option>
+                <option *ngFor="let user of userList.data" [value]="user.id">{{user.first_name}} {{user.last_name}}</option>
+            </select>
+        </div>
+    </div>
+</div>

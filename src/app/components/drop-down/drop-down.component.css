@@ -1,0 +1,39 @@
+.list{
+    width: 40%;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(51, 52, 53);
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.align__block{
+    margin-top: 20%;
+    /* margin-left: 40%; */
+    text-align: center;
+}
+.head {
+    font-size: 40px;
+    font-weight: 600;
+}
+.sub_head {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.image__wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    padding: 35px;
+    border: 10px solid #ad9664;
+    border-radius: 15px;
+}
+.cointainer{ 
+    background-color: #dedbdb;
+    height: 92vh;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,35 @@
+.box {
+    height: 92vh;
+    width: 100%;
+    position: relative;
+    background-color: #dedbdb;
+}
+
+button {
+    background-color: rgb(113 107 107 / 82%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.content {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    text-align: center;
+}
+.new_box {
+    border: inset;
+    background-color: rgb(113 107 107 / 82%);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
